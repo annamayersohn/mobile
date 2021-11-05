@@ -17,3 +17,10 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".source").focus(function(){
+        $(".source").scrollTop(0);
+        }, function(){
+        $(".source").scrollTop(0);
+    });
+});
