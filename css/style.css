@@ -106,7 +106,7 @@ main {
 }
 
 .parallax {
-    background-image: url("../images/landscape1.jpg");
+    background-image: url("../images/landscape.jpg");
     background-size: contain;
     background-position: 0% 20%;
     background-repeat: no-repeat;
