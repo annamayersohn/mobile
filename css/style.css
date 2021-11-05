@@ -107,10 +107,9 @@ main {
 
 .parallax {
     background-image: url("../images/parallax.jpg");
-    background-size: contain;
-    background-position: 0% 20%;
+    background-size: cover;
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-attachment:fixed;
 }
 
 .parallax ul {
@@ -346,12 +345,4 @@ footer {
     padding: 10px 20px;
     border-top: solid 4px black;
     line-height: 1.2;
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-    .parallax {
-        background-image: url("../images/parallax.jpg");
-        background-size: cover;
-        background-attachment: scroll;
-    }
 }
